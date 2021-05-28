@@ -1,0 +1,65 @@
+body{
+    background: #fcecdd;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.watchface{
+    border: 6px solid  #ffc288;
+    flex-direction: column-reverse;
+    display: flex;
+    background:#ff6701;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    align-items: inherit;
+  
+
+
+
+box-shadow: 0px 1px 153px 23px rgba(0,0,0,0.39) inset;
+-webkit-box-shadow: 0px 1px 153px 23px rgba(0,0,0,0.39) inset;
+-moz-box-shadow: 0px 1px 153px 23px rgba(0,0,0,0.39) inset;
+}
+.main-watchface{
+    flex-direction: column-reverse;
+    display: flex;
+    background:#51c4d3;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    align-items: inherit;
+    box-shadow: 0px 1px 153px 23px rgba(0,0,0,0.39);
+-webkit-box-shadow: 0px 1px 153px 23px rgba(0,0,0,0.39);
+-moz-box-shadow: 0px 1px 153px 23px rgba(0,0,0,0.39);
+    
+
+
+
+
+}
+.Display{
+    font-size: 100px;
+    
+}
+.btn{
+    font-family: cursive;
+    font-size: 25px;
+    border: 7px solid;
+    height: 124px;
+    width: 123px;
+    border-radius: 10px;
+    background: #aad8d3;
+    border-radius: 50%;
+    box-shadow: 0px 1px 30px 7px rgba(0,0,0,0.39);
+-webkit-box-shadow: 0px 1px 30px 7px rgba(0,0,0,0.39);
+-moz-box-shadow: 0px 1px 30px 7px rgba(0,0,0,0.39);
+}
+.Buttons{
+    display: flex;
+    width: 637px;
+    height: 400px;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
